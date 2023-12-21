@@ -610,7 +610,7 @@ python-dotenv = "^1.0.0"
 type = "git"
 url = "https://github.com/sakkke/persona.git"
 reference = "HEAD"
-resolved_reference = "b946e807b198d18d0cd43eb7de576abd206430cb"
+resolved_reference = "30cce395fe57bfb8de377d53ee24f08c0ec69351"
 
 [[package]]
 name = "py-cord"
