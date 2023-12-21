@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "en-ja-trans-persona"
+version = "0.1.0"
+description = ""
+authors = ["sakkke <84666033+sakkke@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
