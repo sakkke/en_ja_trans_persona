@@ -13,5 +13,5 @@ cat | en-ja-trans --format \'{en.text} → {ja.text} ({ja.en_pronunciation})\'
 
 Example output: hello → こんにちは (kon-ni-chi-wa)'''
 
-persona = Persona(client, prompt)
+persona = Persona(client, prompt, model='gpt-4-vision-preview')
 persona.run(os.getenv('TOKEN'))
